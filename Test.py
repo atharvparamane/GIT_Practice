@@ -27,7 +27,7 @@ print("Mean Squared Error:", mse)
 print("Slope (Coefficient):", model.coef_[0])
 print("Intercept:", model.intercept_)
 
-# Predict a new value
+
 new_value = np.array([[6]])
 prediction = model.predict(new_value)
 print("Prediction for input 6:", prediction[0])
